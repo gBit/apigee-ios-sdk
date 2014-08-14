@@ -80,12 +80,12 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source_files  = "source/Classes", 
+  # s.source_files  = "lib", 
   # s.source_files  = "source/Classes/**/*.{h,m}"
 
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "source/Classes/**/*.h"
+  s.public_header_files = "Headers"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  # s.resources = "Resources"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
